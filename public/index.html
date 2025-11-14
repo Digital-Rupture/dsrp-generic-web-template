@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; base-uri 'self'; object-src 'none'; style-src 'self';">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+  <link rel="alternate" href="/en/page" hreflang="en">
+  <link rel="alternate" href="/es/page" hreflang="es">
+  <link rel="alternate" href="/page" hreflang="x-default">
+
+  <title>Secure Web Template</title>
+</head>
+<body class="safe-app-body">
+  
+  <header>
+    <h1>Welcome, Authenticated User</h1>
+  </header>
+
+  <main>
+    <form method="POST" action="/api/submit-data" autocomplete="off">
+      <label for="username">Username (Alphanumeric):</label>
+      <input type="text" id="username" name="username" required minlength="4" maxlength="50" pattern="[A-Za-z0-9]+" autocomplete="off">
+      
+      <label for="password">New Password:</label>
+      <input type="password" id="password" name="password" required autocomplete="new-password">
+      
+      <input type="hidden" name="csrf_token" value="[SERVER_GENERATED_CSRF_TOKEN]">
+
+      <button type="submit">Update Account</button>
+    </form>
+
+    <p>User Status: [ESCAPED_USER_STATUS]</p>
+  </main>
+
+  <script src="https://examplecdn.com/lib/3.0.0/library.js" 
+          integrity="sha384-H4uWwYqR1nFfF/9Zc9PZ2wY3/vKk+G0tI7kM3j1xQY5jGzN7E6g==" 
+          crossorigin="anonymous" 
+          defer>
+  </script>
+
+  <script>
+    if (typeof libraryGlobalObject === 'undefined') {
+        // Log the failure (e.g., to a monitoring service) and load the local, pre-verified fallback.
+        console.warn("CDN resource failed SRI check. Loading local fallback.");
+        document.write('<script src="/js/vendor/library-fallback.js" defer><\/script>');
+    }
+  </script>
+
+  <script src="/js/app.js" defer></script>
+</body>
