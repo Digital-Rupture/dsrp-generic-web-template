@@ -10,14 +10,29 @@
 
 To begin a new project using this structure, please use the **"Use this template"** button on the main repository page (if viewing on GitHub). This will clone the structure and reset the commit history, giving you a clean slate.
 
-### 1. Project Setup
+# DSRP Generic Web Template
 
-After cloning the new repository, follow these steps:
+### ⚡️ Repository Description
 
-1.  **Update `README.md`:** Replace this introductory content with specific details about your new project, including its purpose, technologies, and unique setup requirements.
-2.  **Initialize:** If using Node.js, run `npm init` or `npm install` in your root directory.
-3.  **Start Coding:** Place your primary application files in the relevant directories (`/src`, `/public`).
+**A foundational web application template adhering to DSRP principles. This boilerplate includes the MIT License, a dedicated AI Attribution policy, and standard development directories for rapid project initialization and professional consistency.**
 
+---
+
+## 🛠️ Getting Started (Start Your Project Here!)
+
+This repository is set up as a **Template Repository** to ensure every project starts with a clean, standardized, and secure foundation.
+
+### Template URL:
+https://github.com/Digital-Rupture/dsrp-generic-web-template.git
+
+
+### Quick Start Steps
+
+1.  **Start a New Repository:** Navigate to the template URL above and click the green **"Use this template"** button to instantly create a new, separate project based on this structure.
+2.  **Clone Locally:** Use the `git clone` command on your new project's URL.
+3.  **Read the Governance:** Before coding, review the **Security & DSRP Breakdown** document to understand the foundational security controls implemented.
+
+---
 ### 2. Directory Structure
 
 This template uses a standardized structure suitable for most modern web applications:
