@@ -6,18 +6,7 @@
 
 ---
 
-## 🛠️ Getting Started
-
-To begin a new project using this structure, please use the **"Use this template"** button on the main repository page (if viewing on GitHub). This will clone the structure and reset the commit history, giving you a clean slate.
-
-# DSRP Generic Web Template
-
-### ⚡️ Repository Description
-
-**A foundational web application template adhering to DSRP principles. This boilerplate includes the MIT License, a dedicated AI Attribution policy, and standard development directories for rapid project initialization and professional consistency.**
-
----
-
+### 2. Overview
 ## 🛠️ Getting Started (Start Your Project Here!)
 
 This repository is set up as a **Template Repository** to ensure every project starts with a clean, standardized, and secure foundation.
