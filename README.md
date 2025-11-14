@@ -6,7 +6,7 @@
 
 ---
 
-### 2. Overview
+### 1. Overview
 ## 🛠️ Getting Started (Start Your Project Here!)
 
 This repository is set up as a **Template Repository** to ensure every project starts with a clean, standardized, and secure foundation.
