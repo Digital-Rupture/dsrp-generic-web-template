@@ -50,6 +50,12 @@ We maintain a commitment to transparency regarding the use of AI tools in develo
 This document provides a formal **Risk Register** detailing potential security vulnerabilities (categorized by the **CIA Triad**) inherent to the template elements and outlining the mitigation strategy, whether applied in the template or **Deferred to the Backend/Infrastructure**.
 
 > [View the complete RISK_REGISTER.md here.](./RISK_REGISTER.md)
+>
+> #### 💡 Security & DSRP Breakdown
+
+This guide explains the "why" behind the template's choices, merging **security controls** (the **CIA Triad**) with the **DSRP** principles of structural thinking. This is the recommended starting point for new developers using this template.
+
+> [View the Security & DSRP Breakdown here.](./SECURITY_BREAKDOWN.md)
 
 ---
 
